@@ -1,8 +1,8 @@
 from telegram import Update, Bot
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
 
-TOKEN = '7407944412:AAGkvS0eVPxk1pW0shpWN8lkA0bbGqbZWmI'
-ADMIN_CHAT_ID = '956251226'
+TOKEN = ''
+ADMIN_CHAT_ID = ''
 
 async def start(update: Update, context: CallbackContext) -> None:
     await update.message.reply_text('Welcome! You can send messages or files, and I will forward them to the admin.')
